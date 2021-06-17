@@ -1,0 +1,411 @@
+Sequential_Binary_Multiplier	Multiplicand	-	-	pi	\Multiplicand
+Sequential_Binary_Multiplier	Multiplier	-	-	pi	\Multiplier
+Sequential_Binary_Multiplier	Product	-	-	po	\Product
+Sequential_Binary_Multiplier	Ready	-	-	po	\Ready
+Sequential_Binary_Multiplier	Start	-	-	pi	\Start
+Sequential_Binary_Multiplier	clock	-	-	pi	\clock
+Sequential_Binary_Multiplier	reset_b	-	-	pi	\reset_b
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$496	sky130_fd_sc_hd__or3b_1	A	in	\state [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$496	sky130_fd_sc_hd__or3b_1	B	in	\state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$496	sky130_fd_sc_hd__or3b_1	C_N	in	\state [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$496	sky130_fd_sc_hd__or3b_1	X	out	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$497	sky130_fd_sc_hd__clkinv_1	A	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$497	sky130_fd_sc_hd__clkinv_1	Y	out	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$498	sky130_fd_sc_hd__nand2_1	A	in	\B [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$498	sky130_fd_sc_hd__nand2_1	B	in	\Product [9]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$498	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n59_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$499	sky130_fd_sc_hd__xor2_1	A	in	\B [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$499	sky130_fd_sc_hd__xor2_1	B	in	\Product [9]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$499	sky130_fd_sc_hd__xor2_1	X	out	$abc$495$new_n60_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$500	sky130_fd_sc_hd__nand2_1	A	in	\B [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$500	sky130_fd_sc_hd__nand2_1	B	in	\Product [8]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$500	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n61_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$501	sky130_fd_sc_hd__lpflow_inputiso1p_1	A	in	\B [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$501	sky130_fd_sc_hd__lpflow_inputiso1p_1	SLEEP	in	\Product [8]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$501	sky130_fd_sc_hd__lpflow_inputiso1p_1	X	out	$abc$495$new_n62_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$502	sky130_fd_sc_hd__and2_0	A	in	\B [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$502	sky130_fd_sc_hd__and2_0	B	in	\Product [7]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$502	sky130_fd_sc_hd__and2_0	X	out	$abc$495$new_n63_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$503	sky130_fd_sc_hd__nand2_1	A	in	\B [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$503	sky130_fd_sc_hd__nand2_1	B	in	\Product [6]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$503	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n64_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$504	sky130_fd_sc_hd__nand2_1	A	in	\B [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$504	sky130_fd_sc_hd__nand2_1	B	in	\Product [5]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$504	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n65_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$505	sky130_fd_sc_hd__nor2_1	A	in	\B [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$505	sky130_fd_sc_hd__nor2_1	B	in	\Product [6]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$505	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n66_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$506	sky130_fd_sc_hd__lpflow_isobufsrc_1	A	in	$abc$495$new_n64_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$506	sky130_fd_sc_hd__lpflow_isobufsrc_1	SLEEP	in	$abc$495$new_n66_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$506	sky130_fd_sc_hd__lpflow_isobufsrc_1	X	out	$abc$495$new_n67_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$507	sky130_fd_sc_hd__o21ai_0	A1	in	$abc$495$new_n65_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$507	sky130_fd_sc_hd__o21ai_0	A2	in	$abc$495$new_n66_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$507	sky130_fd_sc_hd__o21ai_0	B1	in	$abc$495$new_n64_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$507	sky130_fd_sc_hd__o21ai_0	Y	out	$abc$495$new_n68_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$508	sky130_fd_sc_hd__nor2_1	A	in	\B [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$508	sky130_fd_sc_hd__nor2_1	B	in	\Product [7]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$508	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n69_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$509	sky130_fd_sc_hd__nor2_1	A	in	$abc$495$new_n63_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$509	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n69_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$509	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n70_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$510	sky130_fd_sc_hd__a21o_1	A1	in	$abc$495$new_n68_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$510	sky130_fd_sc_hd__a21o_1	A2	in	$abc$495$new_n70_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$510	sky130_fd_sc_hd__a21o_1	B1	in	$abc$495$new_n63_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$510	sky130_fd_sc_hd__a21o_1	X	out	$abc$495$new_n71_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$511	sky130_fd_sc_hd__a221o_1	A1	in	\B [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$511	sky130_fd_sc_hd__a221o_1	A2	in	\Product [8]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$511	sky130_fd_sc_hd__a221o_1	B1	in	$abc$495$new_n68_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$511	sky130_fd_sc_hd__a221o_1	B2	in	$abc$495$new_n70_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$511	sky130_fd_sc_hd__a221o_1	C1	in	$abc$495$new_n63_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$511	sky130_fd_sc_hd__a221o_1	X	out	$abc$495$new_n72_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$512	sky130_fd_sc_hd__or3b_1	A	in	\state [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$512	sky130_fd_sc_hd__or3b_1	B	in	\state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$512	sky130_fd_sc_hd__or3b_1	C_N	in	\state [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$512	sky130_fd_sc_hd__or3b_1	X	out	$abc$495$new_n73_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$513	sky130_fd_sc_hd__clkinv_1	A	in	$abc$495$new_n73_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$513	sky130_fd_sc_hd__clkinv_1	Y	out	\next_state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$514	sky130_fd_sc_hd__and2_0	A	in	\Product [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$514	sky130_fd_sc_hd__and2_0	B	in	\next_state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$514	sky130_fd_sc_hd__and2_0	X	out	$abc$495$new_n75_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$515	sky130_fd_sc_hd__nand2_1	A	in	\Product [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$515	sky130_fd_sc_hd__nand2_1	B	in	\next_state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$515	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$516	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n60_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$516	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n62_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$516	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n72_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$516	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$516	sky130_fd_sc_hd__a31oi_1	Y	out	$abc$495$new_n77_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$517	sky130_fd_sc_hd__nor2_1	A	in	\state [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$517	sky130_fd_sc_hd__nor2_1	B	in	\state [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$517	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n78_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$518	sky130_fd_sc_hd__and2_0	A	in	\state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$518	sky130_fd_sc_hd__and2_0	B	in	$abc$495$new_n78_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$518	sky130_fd_sc_hd__and2_0	X	out	$abc$495$new_n79_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$519	sky130_fd_sc_hd__nand2_1	A	in	\state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$519	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n78_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$519	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$520	sky130_fd_sc_hd__a31oi_1	A1	in	\C
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$520	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$520	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$520	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n75_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$520	sky130_fd_sc_hd__a31oi_1	Y	out	$abc$495$new_n81_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$521	sky130_fd_sc_hd__a21oi_1	A1	in	$abc$495$new_n59_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$521	sky130_fd_sc_hd__a21oi_1	A2	in	$abc$495$new_n77_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$521	sky130_fd_sc_hd__a21oi_1	B1	in	$abc$495$new_n81_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$521	sky130_fd_sc_hd__a21oi_1	Y	out	$0\C[0:0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$522	sky130_fd_sc_hd__nand2_1	A	in	\Multiplier [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$522	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$522	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n83_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$523	sky130_fd_sc_hd__nand2_1	A	in	\Product [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$523	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$523	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n84_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$524	sky130_fd_sc_hd__nor2_1	A	in	\Product [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$524	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$524	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n85_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$525	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$525	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n83_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$525	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n84_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$525	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n85_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$525	sky130_fd_sc_hd__a31oi_1	Y	out	$0\Q[4:0] [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$526	sky130_fd_sc_hd__nand2_1	A	in	\Multiplier [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$526	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$526	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n87_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$527	sky130_fd_sc_hd__nand2_1	A	in	\Product [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$527	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$527	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n88_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$528	sky130_fd_sc_hd__nor2_1	A	in	\Product [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$528	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$528	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n89_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$529	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$529	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n87_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$529	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n88_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$529	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n89_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$529	sky130_fd_sc_hd__a31oi_1	Y	out	$0\Q[4:0] [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$530	sky130_fd_sc_hd__nand2_1	A	in	\Multiplier [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$530	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$530	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n91_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$531	sky130_fd_sc_hd__nand2_1	A	in	\Product [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$531	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$531	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n92_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$532	sky130_fd_sc_hd__nor2_1	A	in	\Product [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$532	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$532	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n93_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$533	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$533	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n91_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$533	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n92_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$533	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n93_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$533	sky130_fd_sc_hd__a31oi_1	Y	out	$0\Q[4:0] [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$534	sky130_fd_sc_hd__nand2_1	A	in	\Multiplier [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$534	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$534	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n95_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$535	sky130_fd_sc_hd__nand2_1	A	in	\Product [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$535	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$535	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n96_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$536	sky130_fd_sc_hd__nor2_1	A	in	\Product [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$536	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$536	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n97_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$537	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$537	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n95_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$537	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n96_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$537	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n97_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$537	sky130_fd_sc_hd__a31oi_1	Y	out	$0\Q[4:0] [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$538	sky130_fd_sc_hd__nand2_1	A	in	\Multiplier [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$538	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$538	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n99_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$539	sky130_fd_sc_hd__nand2_1	A	in	\Product [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$539	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$539	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n100_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$540	sky130_fd_sc_hd__nor2_1	A	in	\Product [5]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$540	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$540	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n101_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$541	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$541	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n99_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$541	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n100_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$541	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n101_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$541	sky130_fd_sc_hd__a31oi_1	Y	out	$0\Q[4:0] [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$542	sky130_fd_sc_hd__o21ai_0	A1	in	\P [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$542	sky130_fd_sc_hd__o21ai_0	A2	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$542	sky130_fd_sc_hd__o21ai_0	B1	in	$abc$495$new_n73_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$542	sky130_fd_sc_hd__o21ai_0	Y	out	$abc$495$new_n103_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$543	sky130_fd_sc_hd__o21ai_0	A1	in	\P [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$543	sky130_fd_sc_hd__o21ai_0	A2	in	$abc$495$new_n73_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$543	sky130_fd_sc_hd__o21ai_0	B1	in	$abc$495$new_n103_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$543	sky130_fd_sc_hd__o21ai_0	Y	out	$0\P[2:0] [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$544	sky130_fd_sc_hd__nor3_1	A	in	\P [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$544	sky130_fd_sc_hd__nor3_1	B	in	\P [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$544	sky130_fd_sc_hd__nor3_1	C	in	$abc$495$new_n73_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$544	sky130_fd_sc_hd__nor3_1	Y	out	$abc$495$new_n105_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$545	sky130_fd_sc_hd__o211ai_1	A1	in	\P [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$545	sky130_fd_sc_hd__o211ai_1	A2	in	$abc$495$new_n73_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$545	sky130_fd_sc_hd__o211ai_1	B1	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$545	sky130_fd_sc_hd__o211ai_1	C1	in	\P [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$545	sky130_fd_sc_hd__o211ai_1	Y	out	$abc$495$new_n106_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$546	sky130_fd_sc_hd__nand2b_1	A_N	in	$abc$495$new_n105_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$546	sky130_fd_sc_hd__nand2b_1	B	in	$abc$495$new_n106_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$546	sky130_fd_sc_hd__nand2b_1	Y	out	$0\P[2:0] [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$547	sky130_fd_sc_hd__nor3_1	A	in	\P [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$547	sky130_fd_sc_hd__nor3_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$547	sky130_fd_sc_hd__nor3_1	C	in	$abc$495$new_n105_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$547	sky130_fd_sc_hd__nor3_1	Y	out	$abc$495$new_n108_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$548	sky130_fd_sc_hd__a21oi_1	A1	in	\P [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$548	sky130_fd_sc_hd__a21oi_1	A2	in	$abc$495$new_n105_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$548	sky130_fd_sc_hd__a21oi_1	B1	in	$abc$495$new_n108_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$548	sky130_fd_sc_hd__a21oi_1	Y	out	$0\P[2:0] [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$549	sky130_fd_sc_hd__nand2_1	A	in	\Multiplicand [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$549	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$549	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n110_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$550	sky130_fd_sc_hd__nand2_1	A	in	\B [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$550	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$550	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n111_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$551	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n110_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$551	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n111_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$551	sky130_fd_sc_hd__nand2_1	Y	out	$0\B[4:0] [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$552	sky130_fd_sc_hd__nand2_1	A	in	\Multiplicand [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$552	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$552	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n113_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$553	sky130_fd_sc_hd__nand2_1	A	in	\B [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$553	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$553	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n114_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$554	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n113_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$554	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n114_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$554	sky130_fd_sc_hd__nand2_1	Y	out	$0\B[4:0] [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$555	sky130_fd_sc_hd__nand2_1	A	in	\Multiplicand [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$555	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$555	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n116_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$556	sky130_fd_sc_hd__nand2_1	A	in	\B [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$556	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$556	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n117_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$557	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n116_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$557	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n117_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$557	sky130_fd_sc_hd__nand2_1	Y	out	$0\B[4:0] [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$558	sky130_fd_sc_hd__nand2_1	A	in	\Multiplicand [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$558	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$558	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n119_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$559	sky130_fd_sc_hd__nand2_1	A	in	\B [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$559	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$559	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n120_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$560	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n119_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$560	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n120_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$560	sky130_fd_sc_hd__nand2_1	Y	out	$0\B[4:0] [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$561	sky130_fd_sc_hd__nand2_1	A	in	\Multiplicand [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$561	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$561	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n122_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$562	sky130_fd_sc_hd__nand2_1	A	in	\B [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$562	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$562	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n123_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$563	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n122_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$563	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n123_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$563	sky130_fd_sc_hd__nand2_1	Y	out	$0\B[4:0] [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$564	sky130_fd_sc_hd__nand2_1	A	in	\Product [6]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$564	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n79_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$564	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n125_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$565	sky130_fd_sc_hd__a21oi_1	A1	in	\B [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$565	sky130_fd_sc_hd__a21oi_1	A2	in	$abc$495$new_n75_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$565	sky130_fd_sc_hd__a21oi_1	B1	in	\Product [5]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$565	sky130_fd_sc_hd__a21oi_1	Y	out	$abc$495$new_n126_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$566	sky130_fd_sc_hd__o21ai_0	A1	in	$abc$495$new_n65_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$566	sky130_fd_sc_hd__o21ai_0	A2	in	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$566	sky130_fd_sc_hd__o21ai_0	B1	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$566	sky130_fd_sc_hd__o21ai_0	Y	out	$abc$495$new_n127_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$567	sky130_fd_sc_hd__o31ai_1	A1	in	$abc$495$new_n79_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$567	sky130_fd_sc_hd__o31ai_1	A2	in	$abc$495$new_n126_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$567	sky130_fd_sc_hd__o31ai_1	A3	in	$abc$495$new_n127_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$567	sky130_fd_sc_hd__o31ai_1	B1	in	$abc$495$new_n125_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$567	sky130_fd_sc_hd__o31ai_1	Y	out	$0\A[4:0] [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$568	sky130_fd_sc_hd__nand2_1	A	in	\Product [6]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$568	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$568	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n129_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$569	sky130_fd_sc_hd__xnor2_1	A	in	$abc$495$new_n65_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$569	sky130_fd_sc_hd__xnor2_1	B	in	$abc$495$new_n67_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$569	sky130_fd_sc_hd__xnor2_1	Y	out	$abc$495$new_n130_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$570	sky130_fd_sc_hd__o22ai_1	A1	in	\Product [7]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$570	sky130_fd_sc_hd__o22ai_1	A2	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$570	sky130_fd_sc_hd__o22ai_1	B1	in	$abc$495$new_n130_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$570	sky130_fd_sc_hd__o22ai_1	B2	in	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$570	sky130_fd_sc_hd__o22ai_1	Y	out	$abc$495$new_n131_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$571	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$571	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$571	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n129_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$571	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n131_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$571	sky130_fd_sc_hd__a31oi_1	Y	out	$0\A[4:0] [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$572	sky130_fd_sc_hd__xnor2_1	A	in	$abc$495$new_n68_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$572	sky130_fd_sc_hd__xnor2_1	B	in	$abc$495$new_n70_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$572	sky130_fd_sc_hd__xnor2_1	Y	out	$abc$495$new_n133_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$573	sky130_fd_sc_hd__nand2_1	A	in	\Product [7]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$573	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$573	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n134_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$574	sky130_fd_sc_hd__nand3_1	A	in	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$574	sky130_fd_sc_hd__nand3_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$574	sky130_fd_sc_hd__nand3_1	C	in	$abc$495$new_n134_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$574	sky130_fd_sc_hd__nand3_1	Y	out	$abc$495$new_n135_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$575	sky130_fd_sc_hd__o21ai_0	A1	in	\Product [8]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$575	sky130_fd_sc_hd__o21ai_0	A2	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$575	sky130_fd_sc_hd__o21ai_0	B1	in	$abc$495$new_n135_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$575	sky130_fd_sc_hd__o21ai_0	Y	out	$abc$495$new_n136_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$576	sky130_fd_sc_hd__a21oi_1	A1	in	$abc$495$new_n75_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$576	sky130_fd_sc_hd__a21oi_1	A2	in	$abc$495$new_n133_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$576	sky130_fd_sc_hd__a21oi_1	B1	in	$abc$495$new_n136_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$576	sky130_fd_sc_hd__a21oi_1	Y	out	$0\A[4:0] [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$577	sky130_fd_sc_hd__nor2_1	A	in	\Product [9]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$577	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$577	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n138_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$578	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n61_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$578	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n62_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$578	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n139_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$579	sky130_fd_sc_hd__xnor2_1	A	in	$abc$495$new_n71_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$579	sky130_fd_sc_hd__xnor2_1	B	in	$abc$495$new_n139_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$579	sky130_fd_sc_hd__xnor2_1	Y	out	$abc$495$new_n140_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$580	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n75_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$580	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n140_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$580	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n141_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$581	sky130_fd_sc_hd__nand3_1	A	in	\Product [8]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$581	sky130_fd_sc_hd__nand3_1	B	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$581	sky130_fd_sc_hd__nand3_1	C	in	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$581	sky130_fd_sc_hd__nand3_1	Y	out	$abc$495$new_n142_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$582	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$582	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n141_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$582	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n142_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$582	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n138_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$582	sky130_fd_sc_hd__a31oi_1	Y	out	$0\A[4:0] [3]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$583	sky130_fd_sc_hd__nor2_1	A	in	\C
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$583	sky130_fd_sc_hd__nor2_1	B	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$583	sky130_fd_sc_hd__nor2_1	Y	out	$abc$495$new_n144_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$584	sky130_fd_sc_hd__a21o_1	A1	in	$abc$495$new_n62_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$584	sky130_fd_sc_hd__a21o_1	A2	in	$abc$495$new_n72_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$584	sky130_fd_sc_hd__a21o_1	B1	in	$abc$495$new_n60_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$584	sky130_fd_sc_hd__a21o_1	X	out	$abc$495$new_n145_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$585	sky130_fd_sc_hd__nand2_1	A	in	$abc$495$new_n77_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$585	sky130_fd_sc_hd__nand2_1	B	in	$abc$495$new_n145_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$585	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n146_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$586	sky130_fd_sc_hd__a31oi_1	A1	in	\Product [9]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$586	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$495$new_n57_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$586	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$495$new_n76_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$586	sky130_fd_sc_hd__a31oi_1	B1	in	$abc$495$new_n79_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$586	sky130_fd_sc_hd__a31oi_1	Y	out	$abc$495$new_n147_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$587	sky130_fd_sc_hd__a21oi_1	A1	in	$abc$495$new_n146_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$587	sky130_fd_sc_hd__a21oi_1	A2	in	$abc$495$new_n147_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$587	sky130_fd_sc_hd__a21oi_1	B1	in	$abc$495$new_n144_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$587	sky130_fd_sc_hd__a21oi_1	Y	out	$0\A[4:0] [4]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$588	sky130_fd_sc_hd__nor3_1	A	in	\P [0]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$588	sky130_fd_sc_hd__nor3_1	B	in	\P [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$588	sky130_fd_sc_hd__nor3_1	C	in	\P [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$588	sky130_fd_sc_hd__nor3_1	Y	out	$abc$495$new_n149_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$589	sky130_fd_sc_hd__nand2_1	A	in	\Start
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$589	sky130_fd_sc_hd__nand2_1	B	in	\Ready
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$589	sky130_fd_sc_hd__nand2_1	Y	out	$abc$495$new_n150_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$590	sky130_fd_sc_hd__o21ai_0	A1	in	$abc$495$new_n80_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$590	sky130_fd_sc_hd__o21ai_0	A2	in	$abc$495$new_n149_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$590	sky130_fd_sc_hd__o21ai_0	B1	in	$abc$495$new_n150_
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$590	sky130_fd_sc_hd__o21ai_0	Y	out	\next_state [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$591	sky130_fd_sc_hd__nor2_1	A	in	\next_state [2]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$591	sky130_fd_sc_hd__nor2_1	B	in	\next_state [1]
+Sequential_Binary_Multiplier	$abc$495$auto$blifparse.cc:371:parse_blif$591	sky130_fd_sc_hd__nor2_1	Y	out	\next_state [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$233	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$233	sky130_fd_sc_hd__dfxtp_1	D	in	$0\A[4:0] [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$233	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [5]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$234	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$234	sky130_fd_sc_hd__dfxtp_1	D	in	$0\A[4:0] [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$234	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [6]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$235	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$235	sky130_fd_sc_hd__dfxtp_1	D	in	$0\A[4:0] [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$235	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [7]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$236	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$236	sky130_fd_sc_hd__dfxtp_1	D	in	$0\A[4:0] [3]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$236	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [8]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$237	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$237	sky130_fd_sc_hd__dfxtp_1	D	in	$0\A[4:0] [4]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$237	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [9]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$244	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$244	sky130_fd_sc_hd__dfxtp_1	D	in	$0\B[4:0] [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$244	sky130_fd_sc_hd__dfxtp_1	Q	out	\B [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$245	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$245	sky130_fd_sc_hd__dfxtp_1	D	in	$0\B[4:0] [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$245	sky130_fd_sc_hd__dfxtp_1	Q	out	\B [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$246	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$246	sky130_fd_sc_hd__dfxtp_1	D	in	$0\B[4:0] [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$246	sky130_fd_sc_hd__dfxtp_1	Q	out	\B [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$247	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$247	sky130_fd_sc_hd__dfxtp_1	D	in	$0\B[4:0] [3]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$247	sky130_fd_sc_hd__dfxtp_1	Q	out	\B [3]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$248	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$248	sky130_fd_sc_hd__dfxtp_1	D	in	$0\B[4:0] [4]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$248	sky130_fd_sc_hd__dfxtp_1	Q	out	\B [4]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$249	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$249	sky130_fd_sc_hd__dfxtp_1	D	in	$0\P[2:0] [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$249	sky130_fd_sc_hd__dfxtp_1	Q	out	\P [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$250	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$250	sky130_fd_sc_hd__dfxtp_1	D	in	$0\P[2:0] [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$250	sky130_fd_sc_hd__dfxtp_1	Q	out	\P [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$251	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$251	sky130_fd_sc_hd__dfxtp_1	D	in	$0\P[2:0] [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$251	sky130_fd_sc_hd__dfxtp_1	Q	out	\P [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$252	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$252	sky130_fd_sc_hd__dfxtp_1	D	in	$0\C[0:0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$252	sky130_fd_sc_hd__dfxtp_1	Q	out	\C
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$253	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$253	sky130_fd_sc_hd__dfxtp_1	D	in	$0\Q[4:0] [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$253	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$254	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$254	sky130_fd_sc_hd__dfxtp_1	D	in	$0\Q[4:0] [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$254	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$255	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$255	sky130_fd_sc_hd__dfxtp_1	D	in	$0\Q[4:0] [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$255	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$256	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$256	sky130_fd_sc_hd__dfxtp_1	D	in	$0\Q[4:0] [3]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$256	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [3]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$257	sky130_fd_sc_hd__dfxtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$257	sky130_fd_sc_hd__dfxtp_1	D	in	$0\Q[4:0] [4]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:420:simplemap_dff$257	sky130_fd_sc_hd__dfxtp_1	Q	out	\Product [4]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$258	sky130_fd_sc_hd__dfstp_2	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$258	sky130_fd_sc_hd__dfstp_2	D	in	\next_state [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$258	sky130_fd_sc_hd__dfstp_2	Q	out	\state [0]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$258	sky130_fd_sc_hd__dfstp_2	SET_B	in	\reset_b
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$259	sky130_fd_sc_hd__dfrtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$259	sky130_fd_sc_hd__dfrtp_1	D	in	\next_state [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$259	sky130_fd_sc_hd__dfrtp_1	Q	out	\state [1]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$259	sky130_fd_sc_hd__dfrtp_1	RESET_B	in	\reset_b
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$260	sky130_fd_sc_hd__dfrtp_1	CLK	in	\clock
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$260	sky130_fd_sc_hd__dfrtp_1	D	in	\next_state [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$260	sky130_fd_sc_hd__dfrtp_1	Q	out	\state [2]
+Sequential_Binary_Multiplier	$auto$simplemap.cc:496:simplemap_adff$260	sky130_fd_sc_hd__dfrtp_1	RESET_B	in	\reset_b
