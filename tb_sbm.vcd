@@ -1,0 +1,210 @@
+$date
+	Fri Jun 18 01:54:10 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_Sequential_Binary_Multiplier $end
+$var wire 1 ! Ready $end
+$var wire 10 " Product [9:0] $end
+$var reg 5 # Multiplicand [4:0] $end
+$var reg 5 $ Multiplier [4:0] $end
+$var reg 1 % Start $end
+$var reg 1 & clock $end
+$var reg 1 ' reset_b $end
+$scope module M0 $end
+$var wire 5 ( Multiplicand [4:0] $end
+$var wire 5 ) Multiplier [4:0] $end
+$var wire 1 % Start $end
+$var wire 1 & clock $end
+$var wire 1 ' reset_b $end
+$var wire 1 * Zero $end
+$var wire 1 ! Ready $end
+$var wire 10 + Product [9:0] $end
+$var reg 5 , A [4:0] $end
+$var reg 1 - Add_regs $end
+$var reg 5 . B [4:0] $end
+$var reg 1 / C $end
+$var reg 1 0 Decr_P $end
+$var reg 1 1 Load_regs $end
+$var reg 3 2 P [2:0] $end
+$var reg 5 3 Q [4:0] $end
+$var reg 1 4 Shift_regs $end
+$var reg 3 5 next_state [2:0] $end
+$var reg 3 6 state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#5
+$dumpvars
+b10 6
+b100 5
+04
+b10011 3
+b101 2
+01
+10
+0/
+b10111 .
+1-
+b0 ,
+b10011 +
+0*
+b10011 )
+b10111 (
+1'
+1&
+1%
+b10011 $
+b10111 #
+b10011 "
+0!
+$end
+#10
+0&
+#12
+1-
+10
+b100 5
+0%
+#15
+14
+0-
+00
+b10 5
+b100 2
+b1011110011 "
+b1011110011 +
+b10111 ,
+b100 6
+1&
+#20
+0&
+#25
+1-
+10
+04
+b100 5
+b1011 ,
+b101111001 "
+b101111001 +
+b11001 3
+b10 6
+1&
+#30
+0&
+#35
+14
+0-
+00
+b10 5
+b11 2
+1/
+b1011001 "
+b1011001 +
+b10 ,
+b100 6
+1&
+#40
+0&
+#45
+10
+04
+b100 5
+0/
+b10001 ,
+b1000101100 "
+b1000101100 +
+b1100 3
+b10 6
+1&
+#50
+0&
+#55
+14
+00
+b10 5
+b10 2
+b100 6
+1&
+#60
+0&
+#65
+10
+04
+b100 5
+b1000 ,
+b100010110 "
+b100010110 +
+b10110 3
+b10 6
+1&
+#70
+0&
+#75
+14
+00
+b10 5
+b1 2
+b100 6
+1&
+#80
+0&
+#85
+1-
+10
+04
+b100 5
+b100 ,
+b10001011 "
+b10001011 +
+b1011 3
+b10 6
+1&
+#90
+0&
+#95
+14
+0-
+00
+b1 5
+1*
+b0 2
+b1101101011 "
+b1101101011 +
+b11011 ,
+b100 6
+1&
+#100
+0&
+#105
+11
+04
+b1101 ,
+b110110101 "
+b110110101 +
+b10101 3
+1!
+b1 6
+1&
+#110
+0&
+#115
+11
+b10011 3
+b10011 "
+b10011 +
+b0 ,
+0*
+b101 2
+1&
+#120
+0&
+#125
+1&
+#130
+0&
+#200
